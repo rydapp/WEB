@@ -910,7 +910,7 @@ include_once 'brainatwork.php';
 
 		if ($itemExtras['tExtras'])
 			$itemExtras = json_decode($itemExtras['tExtras'], true);
-
+// Custo maximo da empresa para o valor da entrega fixa
 		if (strlen($itemExtras['custo_maximo'])>0) {
 			$custoMaximoLimite = $itemExtras['custo_maximo'];
 
