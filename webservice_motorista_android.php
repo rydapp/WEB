@@ -5853,7 +5853,9 @@ if ($type == "StartTrip") {
         $driverResult = $obj->MySQLSelect($driverSql);
         $pushMsg = "⚠️🛑ATENÇÃO🛑⚠️
 \n\n push para entregador
+cadasro
 Previsão para está entrega:\n\n
+cadastro
 🏍️ Previsão da Distância: ".$bookingData[0]['vDistance']." KM\n\n 
 ⏰ Previsão de entrega: ".$bookingData[0]['vDuration'].' Minutos ' ;
 
