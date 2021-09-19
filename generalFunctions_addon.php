@@ -936,7 +936,7 @@ include_once 'brainatwork.php';
 
 	$log .=  "
 		-------------------------
-        Admin User ID: {$item[0]['iAdminUserId']}  
+        Admin User ID: {$item[0]['iAdminUserId']} //adiciona o usuario administrador
         Taxa Global: {$oneVle[0]['vValue']}  
         Taxa Personalizada: {$itemExtras['custo_maximo']}  
         Custo Previsto: {$item[0]['fFarePricePreview']}  
